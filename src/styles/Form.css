@@ -1,0 +1,40 @@
+/* ---------- FORM Component CSS Style Sheet ---------- */
+.main__form {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 50px;
+  flex: 2;
+  background-color: var(--background-card);
+}
+
+.form__content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.form__input {
+  background-color: var(--background-card);
+  border: 0px solid;
+  border-bottom: solid 2px var(--text-secondary-color);
+  font-size: 1.6rem;
+  color: var(--text-primary-color);
+}
+
+.form__input:focus {
+  outline: none;
+}
+
+.form__button {
+  background-color: var(--background-card);
+  border: solid 2px var(--text-secondary-color);
+  border-radius: 10px;
+  color: var(--text-primary-color);
+  font-size: 2rem;
+  padding: 20px 0;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  border-color: #ffffff;
+}

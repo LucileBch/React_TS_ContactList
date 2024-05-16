@@ -1,0 +1,55 @@
+/* ---------- APP CSS Style Sheet ---------- */
+/* Variables */
+:root {
+  --text-primary-color: #ffffff;
+  --text-secondary-color: #999999;
+  --background-color: #182538;
+  --background-card: #0d141e;
+}
+
+/* Common rules */
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 1.4rem;
+  color: var(--text-primary-color);
+  background-color: var(--background-color);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.4rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  gap: 50px;
+  padding: 150px 0 200px 0;
+}

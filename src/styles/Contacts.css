@@ -1,0 +1,39 @@
+/* ---------- CONTACT Component CSS Style Sheet ---------- */
+.contact__content {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 50px;
+  background-color: var(--background-card);
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact__person {
+  background-color: var(--background-card);
+  border: solid 2px var(--text-secondary-color);
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.person__infos {
+  line-height: 30px;
+}
+
+.contact__delete {
+  color: red;
+  font-size: 2rem;
+}
+
+.contact__delete:hover {
+  cursor: pointer;
+}

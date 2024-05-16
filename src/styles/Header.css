@@ -1,0 +1,32 @@
+/* ---------- HEADER Component CSS Style Sheet ---------- */
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  border-bottom: 2px solid #ffffff;
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+}
+
+.header__navbar {
+  display: flex;
+  gap: 50px;
+  font-size: 2rem;
+}
+
+.header__navbar li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

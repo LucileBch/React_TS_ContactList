@@ -1,0 +1,19 @@
+/* ---------- FOOTER Component CSS Style Sheet ---------- */
+.footer__container {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  align-items: center;
+  padding: 40px 0;
+  border-top: 2px solid #ffffff;
+}
+
+.footer__navbar {
+  display: flex;
+  gap: 20px;
+  font-size: 1.8rem;
+}
+
+.footer__navbar li:hover {
+  cursor: pointer;
+}
